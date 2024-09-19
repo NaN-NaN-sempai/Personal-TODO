@@ -9,7 +9,7 @@
 - **[Sass](https://sass-lang.com/)**: Extensão CSS para estilos mais dinâmicos e fáceis de manter.
 
 - **[MongoDB](https://www.mongodb.com/) (futuro)**: Será utilizado como banco de dados para armazenamento das tarefas e conquistas.  
-    - Por enquanto, o armazenamento será realizado via **localStorage**.
+    - Por enquanto, o armazenamento será realizado via **[localStorage](https://developer.mozilla.org/docs/Web/API/Window/localStorage)**.
 
 ## Funcionalidades
 
