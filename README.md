@@ -54,6 +54,8 @@
 - Migrar o armazenamento de **localStorage** para **MongoDB**.
 - Adicionar funcionalidade de categorias para as tarefas.
 - Melhorar a responsividade.
+- Específicos
+    - Projeto que mostra ultimos eventos Github 
 
 ## Contribuições
 

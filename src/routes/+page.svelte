@@ -9,6 +9,8 @@
     import Projects from '$components/Projects.svelte';
     import Works from '$components/Works.svelte';
     import SummarizeText from '$components/SummarizeText.svelte';
+
+    import Title from '$components/flyout/components/Title.svelte';
     
     import translations from "$trad"; 
     let texts; 
@@ -29,29 +31,14 @@
         <div class="summarize centralize">
             <SummarizeText />
         </div>
+        <div class="centralize">
+            <br>
+            <br>
+            <br>
+            <Title name={true}>Personal TODO App</Title>
+        </div>
         <div class="intro">
             <Intro />
-        </div>
-        <div class="tools">
-            <Tools />
-        </div>
-        <div class="education">
-            <Education />
-        </div>
-        <div class="splitter">
-            <div class="name">
-                <span> Luís Henrique de Almeida </span>
-            </div>
-            <div class="secondFlyout">
-                <SecondFlyout />
-            </div>
-            <Year><span class="hidden">{texts.curriculum.toUpperCase()}</span> 2024</Year>
-        </div>
-        <div class="projects">
-            <Projects />
-        </div>
-        <div class="works">
-            <Works />
         </div>
     </div>
 </div>
